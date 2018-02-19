@@ -1,0 +1,42 @@
+nav{
+
+	background-color:rgba(255, 255, 255, 0.8);
+	box-shadow: 0px -30px 80px 1px;
+	z-index: 999;
+
+}
+
+.p1{
+
+	background-image:url('../../images/bg1.jpg');
+	
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.pos_fix{
+	border: 1px solid red;
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	width:90%;
+
+}
+
+
+.highlight{
+	border-bottom: 1px solid #64b7ff;
+	font-weight: bold;
+	
+}
+
+.p2{
+	background-image:url('../../images/background.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+
+
