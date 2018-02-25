@@ -17,6 +17,7 @@ body{
 	background-image:url('../../images/site_bg.png');
 	background-repeat: no-repeat;
 	background-size:cover;
+	overflow-x: none;
 }
 
 .p1{
