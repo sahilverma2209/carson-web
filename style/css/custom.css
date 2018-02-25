@@ -2,22 +2,33 @@
 
 nav{
 
-	background-color:white;
-	box-shadow: 0px -30px 80px 1px;
+	background-color:rgba(255,255,255,0);
 	z-index: 999;
 
 }
 
+#home,#contact,#services,#about
+{
+	color:white;
+}
+
 body{
 	
-	background-image:url('../../images/site_bg.jpg');
+	background-image:url('../../images/site_bg.png');
 	background-repeat: no-repeat;
 	background-size:cover;
-	
+}
 
+.p1{
+background-image: url('../../images/p1.png');
+background-size:100vw 100vh;
+background-repeat: no-repeat;
+;
 }
 
 
+
+#logo_text{color:white;}
 .pos_fix{
 	border: 1px solid red;
 	padding-right: 0px;
@@ -30,7 +41,7 @@ body{
 
 .highlight{
 	border-bottom: 1px solid #EF5D60;
-	font-weight: bold;
+	
 }
 
 
