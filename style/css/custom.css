@@ -43,7 +43,9 @@ background-repeat: no-repeat;
 	border-bottom: 1px solid #EF5D60;
 	
 }
-
+.wb{
+	height:70vh;margin-left:auto;margin-right:auto;background-color:#ffffff;box-shadow:1px 1px 15px rgba(0,0,0,0.2);
+}
 
 .ios{
 	width:200px;
@@ -72,7 +74,49 @@ background-repeat: no-repeat;
 	padding-right:3vw;
 }
 
+.wbb{
+	margin-top:20vh;
+}
+
+.aboutus{
+	margin-top:5%;
+	margin-left:22%;
+	display:inline-block;
+	font-family: 'Raleway', sans-serif;
+	font-size:3.2vh;width:76%;
+}
+
+.iphone{
+	height:40vmax; margin-top:-9vh;margin-left:10vw;
+}
+
+
+.sts{
+	width:90vw;
+	margin-left:auto;
+	margin-right:auto;
+	padding:5vh;
+	height:30vh;
+	margin-top:8%;
+}
+
+.ilu{
+	padding-top:0;
+}
+
 @media only screen and (max-width: 500px) {
+	
+	.ilu{
+		padding-top:2vh;
+	}
+	.sts{
+		width:90vw;margin-left:auto;margin-right:auto;height:40vh;margin-top:-5%;
+		
+	}
+	.iphone{
+		height:36vmax; margin-top:0vh;margin-left:0vw;
+	}
+	
 	.hide{
 		display:none !important;
 	}
@@ -84,6 +128,22 @@ background-repeat: no-repeat;
 
 	.txt2{
 		padding-left:0vw;
+	}
+
+	.wb{
+		height:75vh;margin-left:auto;margin-right:auto;background-color:#ffffff;box-shadow:1px 1px 15px rgba(0,0,0,0.2);
+	}
+
+	.wbb{
+		margin-top:15vh;
+	}
+
+	.aboutus{
+		margin-top:5%;
+		margin-left:10%;
+		display:inline-block;
+		font-family: 'Raleway', sans-serif;
+		font-size:5vw;width:76%;
 	}
 
 }
