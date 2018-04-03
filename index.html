@@ -1,441 +1,327 @@
-<!doctype html>
-<html lang="en">
-	
-
-	<head>
-		<meta charset="utf-8">
+<html>
+    <head>
+        <meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	
 
 		<title>Carson</title>
 		
 		<link rel="stylesheet" type="text/css" href="style/css/bootstrap.min.css" />
-		<link rel="stylesheet" type="text/css" href="style/full_page/jquery.fullPage.css" />
-		<link rel="stylesheet" type="text/css" href="style/css/custom.css" />
+        <link rel="stylesheet" type="text/css" href="style/css/custom.css" />
+        <link rel="shortcut icon" href="images/favicon.ico"/>
 		<link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Alegreya+Sans:100|Raleway:200|Lato:100" rel="stylesheet">
-		<link rel="stylesheet" href="style/css/animate.css">
-		
-	</head>
+        <link rel="stylesheet" href="style/css/animate.css">
+        
+        
+        <style>
+        
+        </style>
+    </head>
 
-	<body>
+    <body>
 
-			<nav class="navbar navbar-expand-lg navbar-light fixed-top" style="padding:0px;width:100%;">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" >
+            <div class="container">
+                <a class="navbar-brand" id="#logo_text" href="index.html"><span id="logo_text" style="font-family: 'Raleway', sans-serif;font-size:4vh;display:inline-block;margin-left:0vw;" >CARSON</span></a>
                     
-                    <a class="navbar-brand" id="#logo_text" href="index.html" style="display:inline; margin-left:7%;padding-top:3vh;"><img src="images/logo.png" id="lg" style="height:8vh;margin-top:-2vh;"/><span id="logo_text" style="font-family: 'Raleway', sans-serif;font-size:4vh;display:inline-block;margin-left:1vw;" >CARSON</span></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse " id="navbarSupportedContent"> 
+                    <ul class="navbar-nav mr-auto " style="width:23vmax;margin-left:44vmax;font-size:2.5vh;font-family: 'Raleway', sans-serif;">
+                        <li class="nav-item	">
+                            <a class="nav-link" href="#1" id="home">Home</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link"  href="#2" id="about">About</a> <!-- Questions, survey stats!-->
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#4" id="services">Services</a><!-- features !-->
+                        </li>
+
+                        <li class="nav-item">
+                        <a class="nav-link " href="#5" id="contact">Contact</a><!-- download, contact !-->
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+
+        <div id="wrapper" style="width:100%;">
+
+			
+            <div class="p1" data-anchor="page1" id="1" style="height:100vh;width:100%;"> 
+                
+                <br/><br/>
+
+                <a class="btn km" href="#2" role="button" style="background-color:#EF5D60;color:white;">Know More</a>
+                
+                <div class="row container-fluid align-items-center" style="height:80vh;">
                     
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-        
-                    <div class="collapse navbar-collapse " id="navbarSupportedContent"> 
-                        <ul class="navbar-nav mr-auto " style="margin-left:60%;font-size:2.5vh;font-family: 'Raleway', sans-serif;">
-                            <li class="nav-item	">
-                                <a class="nav-link" href="#page1" id="home">Home</a>
-                            </li>
-                            
-                            <li class="nav-item">
-                                <a class="nav-link" href="#page2" id="about">About</a> <!-- Questions, survey stats!-->
-                            </li>
-        
-                            <li class="nav-item">
-                                <a class="nav-link " href="#page3" id="services">Services</a><!-- features !-->
-                            </li>
-        
-                            <li class="nav-item">
-                            <a class="nav-link " href="#page4" id="contact">Contact</a><!-- download, contact !-->
-                            </li>
-                        </ul>
-        
+                    <div class="col-md-6 col-12" style="max-width:97%;"> 
+                        <div class="main_c" >
+
+                            <div style="font-size:7vh;font-family: 'Raleway', sans-serif;line-height: 1.2;">Your personal <span style="color:#EF5D60;">concierge</span></div><br/>
+                            <div style="font-size:2.5vh;font-family: 'Raleway', sans-serif;width:35vmax;">Join carson and experience the revolution in hotel digitization</div>
+                            <br/><br/>
+
+                        </div>
                     </div>
+
+                    <div class="col-md-6 col-12" >
+                        <img src="images/building.png" class="hotel hide" />
+                    </div>
+
+                </div>
+                
+
+            </div>
+        
+            <div class="p2"  id="2"  style="height:100vh;width:100%;">
+                
+                <br class="hide"/><br class="hide"/><br/>
+
+                <div class="row container-fluid" style="height:80vh;margin-top:10vmin;">
                     
-                </nav>
+                    <div class="col-md-6 col-12">
 
-		<div id="wrapper" style="width:100%;border:1px solid pink;">
+                        <div class="iph_box">
+                            <center><img src="images/iphone.png" class="iph"/></center>
+                        </div>
 
-			<div class="section p1" data-anchor="page1" id="1" style="height:100vh;width:100%;overflow-x: hidden;overflow-y:hidden;"> 
-				
-								
-				<div class="row wbb">
-			
-				<div class="col-8 wb" >
-					
-					<br/><br class="hide"/>
-					<center><div class="row txt">Your personal&nbsp;<span style="color:#ef5d60;">concierge</span></div></center>
-					<br/>
-					<div class="row txt2">Join Carson and experience the revolution in Hotel digitization</div>
-					<br/><br class="hide"/>
+                    </div>
 
-					<div class="row illus">
-			
-						<div class="col-md-4 col-12">
-							<center><img src="images/a.png" style="height:12.5vw;"/></center>
-							<center><hr class="hide" style="width:2vw;border-color:#FFC9CB"/></center>
-							<center><span style="font-family: 'Raleway', sans-serif;font-size:2vh;color:#989696;">Order Food</span></center>
-							<center><span class="hide" style="font-family: 'Raleway', sans-serif; font-size:1.5vh; width:12vw; padding-top:2vh; display:inline-block;">browse the different cuisines and order delicious food </span></center>
-						</div>
-						
-						<div class="col-md-4 col-12 ilu" >
-							<center><img src="images/b.png" style="height:12.5vw;"/></center>
-							<center><hr class="hide" style="width:2vw;border-color:#FFC9CB"/></center>
-							<center><span style="font-family: 'Raleway', sans-serif;font-size:2vh;color:#989696;">Search <span class="hide">nearby</span> attractions</span></center>
-							<center><span class="hide" style="font-family: 'Raleway', sans-serif; font-size:1.5vh; width:12vw; padding-top:2vh; display:inline-block;">book hotel transport and visit hand picked local attractions</span></center>  
-						</div>
-				
-						<div class="col-md-4 col-12 ilu">
-							<center><img src="images/c.png" style="height:12.5vw;"/></center>
-							<center><hr class="hide" style="width:2vw;border-color:#FFC9CB"/></center>
-							<center><span  style="font-family: 'Raleway', sans-serif;font-size:2vh;color:#989696;">Order Ameneties</span></center>
-							<center><span class="hide" style="font-family: 'Raleway', sans-serif; font-size:1.5vh; width:12vw; padding-top:2vh; display:inline-block;">order ameneties at the instance of a touch</span></center>
-						</div>
-			
-					</div>
-				</div>
-			
-				</div>
+                    <div class="col-md-6 col-12" >
+                        <div class="about_box">
+                            <div class="aboutus"> About us. </div><br/>
+                            <div class="about_cnt">   	
+                                We at Carson are committed to enhancing the experience of your guests by integrating all the services
+                                and amenities offered by your hotel into one application.
+                            </div><br/>
+                            <div class="about_cnt">   
+                                You can now welcome and assist your guests more efficiently and conveniently without any increase in
+                                workload.
+                            </div>
 
-			</div>
+                        </div>
+                    </div>
 
-			<div class="section p2" data-anchor="page2" id="2"  style="height:100vh;width:100%;overflow-x: hidden;overflow-y:hidden;">
-					<br/><br/><br/><br class="hide"/><br class="hide"/><br class="hide"/>
-				<div class="row" >
-
-					<div class="col-md-6" style="height:50vh;">
-						<span class="aboutus">
-							<span style="font-weight:bold;font-family: 'Raleway', sans-serif;">About Us</span><br/><br/>	
-							We at Carson are committed to enhancing the experience of your guests by integrating all the services
-							and amenities offered by your hotel into one application.</br>
-							You can now welcome and assist your guests more efficiently and conveniently without any increase in
-							workload.
-						</span>
-					</div>
-
-					<div class="col-md-6" style="height:50vh;font-family: 'Raleway', sans-serif;">
-						<div class="iph">
-							<img src="images/phone.png" class="iphone"/>
-						</div>
-					</div>
-
-				</div>
-			</div>
-
-			<div class="section p3" data-anchor="page3" id="3"  style="height:100vh;width:100%;overflow-x: hidden;overflow-y:hidden;">
-				
-				</br></br><br /><br class="hide"/>
-				<center><span style="font-family: 'Alegreya Sans', sans-serif;font-size:5vh;font-weight:lighter;">Why we do it?</span></center>
-				<hr/ style="width:4vw; margin-top:-1px;">
-			
-				<div class="row sts"  >
-
-					<div class="col-md-4 col-12" style="height:25vh;">
-
-						<div>
-								<div style="margin-left:auto;margin-right:auto;width:32%;height:12.5vh;"><canvas id="a" ></canvas></div></center><br class="hide"/><br class="hide"/>
-								<div class="wow fadeIn" style="margin-left:auto;margin-right:auto;vertical-align:middle;font-size:2vh;width:70%;font-family: 'Raleway', sans-serif;"><center>People feel reluctant to ask silly doubts from the reception</center></div>
-						</div>
-
-					</div>
-
-					<div class="col-md-4 col-12" style="height:25vh;">
-						
-						<div>
-								<div style="margin-left:auto;margin-right:auto;width:32%;height:12.5vh;"><canvas id="b" ></canvas></div><br class="hide"/><br class="hide"/>
-								<div class="wow fadeIn" style="margin-left:auto;margin-right:auto;vertical-align:middle;font-size:2vh;width:70%;font-family: 'Raleway', sans-serif;"><center>Do not enquire about the various amenities offered by the hotel</center></div>
-						</div>
-					
-					</div>
-
-					<div class="col-md-4 col-12" style="height:25vh;">
-						<div>
-								<div style="margin-left:auto;margin-right:auto;width:32%;height:12.5vh;"><canvas id="c" ></canvas></div><br class="hide"/><br class="hide"/>
-								<center><div class="wow fadeIn" style="margin-left:auto;margin-right:auto;vertical-align:middle;font-size:2vh;width:70%;font-family: 'Raleway', sans-serif;"><center>People said they'd love to see the resturant menu from an app </center></div>
-						</div>
-					</div>
-					
-				</div>
-
-			</div>
-
-			
-
-			<div class="section p4" data-anchor="page4" id="4" style="width:100%;overflow-x:hidden;">
-				
-				</br></br></br>
-				<center><span style="font-family: 'Alegreya Sans', sans-serif;font-size:5vh;font-weight:lighter;">Features</span></center>
-				<hr/ style="width:4vw; margin-top:-1px;">
-				<br class="hide"/>
-				<div class="row " style="width:90vw;margin-left:auto;margin-right:auto;font-family: 'Raleway', sans-serif;" >
-						
-						<div class="col-md-3 col-6 feat">
-							
-							<div style="width:70%; height:70%;margin:auto;margin-top:15%;padding-top:2vmin;">
-								<center><img src="images/Pink amenities.svg" style="height:7vh;"/></center>
-								<center><div style="padding-top:2vh;font-weight:bold;">Order Supplies</div></center>
-								<center><div class="hide" style="vertical-align:middle;font-size:1.8vh;padding-top:2vh;">Order soap, shampoo, etc from housekeeping </div></center>
-							</div>
-
-						</div>
-							
-						<div class="col-md-3 col-6 feat">
-							<div style="width:70%; height:70%;margin:auto;margin-top:15%;padding-top:2vmin;">
-								<center><img src="images/pink dumbell.svg" style="height:7vh;"/></center>
-								<center><div style="padding-top:2vh;font-weight:bold;">Hotel facilities</div></center>
-								<center><div class="hide" style="vertical-align:middle;font-size:1.8vh;padding-top:2vh;">Browse and book different facilities provided by hotel</div></center>
-							</div>
-						</div>
-
-						<div class="col-md-3 col-6 feat">
-								<div style="width:70%; height:70%;margin:auto;margin-top:15%;padding-top:2vmin;">
-								<center><img src="images/pink pizzaa.svg" style="height:7vh;"/></center>
-								<center><div style="padding-top:2vh;font-weight:bold;">Order food</div></center>
-								<center><div class="hide" style="vertical-align:middle;font-size:1.8vh;padding-top:2vh;">Order your favorite dishes right from the room</div></center>
-							</div>	
-						</div><br/>
-					
-						<div class="col-md-3 col-6 feat">
-							<div style="width:70%; height:70%;margin:auto;margin-top:15%;padding-top:2vmin;">
-								<center><img src="images/room service.svg" style="height:7vh;"/></center>
-								<center><div style="padding-top:2vh;font-weight:bold;">Request clean-up</div></center>
-								<center><div class="hide" style="vertical-align:middle;font-size:1.8vh;padding-top:2vh;">Call for room cleaning from housekeeping</div></center>
-							</div>	
-						</div>
-				</div>
-
-				<div class="row" style="width:90vw;margin-left:auto;margin-right:auto;font-family: 'Raleway', sans-serif;" >
-						
-					<div class="col-md-3 col-6 feat">
-						<div style="width:70%; height:70%;margin:auto;margin-top:15%;padding-top:2vmin;">
-								<center><img src="images/room laundry.svg" style="height:7vh;"/></center>
-								<center><div style="padding-top:2vh;font-weight:bold;">Give laundry</div></center>
-								<center><div class="hide" style="vertical-align:middle;font-size:1.8vh;padding-top:2vh;">Request the hotel staff to collect laundry</div></center>
-							</div>
-					</div>
-						
-					<div class="col-md-3 col-6 feat">
-							<div style="width:70%; height:70%;margin:auto;margin-top:15%;padding-top:2vmin;">
-								<center><img src="images/travel.svg" style="height:7vh;"/></center>
-								<center><div style="padding-top:2vh;font-weight:bold;">Travel Desk</div></center>
-								<center><div class="hide" style="vertical-align:middle;font-size:1.8vh;padding-top:2vh;">Book hotel taxi or request your car from the vallet</div></center>
-							</div>
-					</div>
-
-					<div class="col-md-3 col-6 feat">
-							<div style="width:70%; height:70%;margin:auto;margin-top:15%;padding-top:2vmin;">
-								<center><img src="images/tv_1.svg" style="height:7vh;"/></center>
-								<center><div style="padding-top:2vh;font-weight:bold;">T.V. Catalouge</div></center>
-								<center><div class="hide" style="vertical-align:middle;font-size:1.8vh;padding-top:2vh;">Browse the T.V. catalouge and find your favourite channels</div></center>
-							</div>	
-					</div>
-				
-					<div class="col-md-3 col-6 feat">
-						<div style="width:70%; height:70%;margin:auto;margin-top:15%;padding-top:2vmin;">
-								<center><img src="images/pink dumbell.svg" style="height:7vh;"/></center>
-								<center><div style="padding-top:2vh;font-weight:bold;">24x7 chat </div></center>
-								<center><div class="hide" style="vertical-align:middle;font-size:1.8vh;padding-top:2vh;">Chat with the hotel staff and track your orders </div></center>
-							</div>	
-					</div>
-					
-				</div>
-				
-			</div>
+                </div>
 
 
-			<div class="section p5" data-anchor="page5" id="5" style="height:100vh;overflow-x: hidden;overflow-y:hidden;">
-				<br/><br/><br/><br/><br/><br/><br/><br/>
-				<div class="row">
-					<div class="col-12" style="height:40vmin;margin-top:60vmax; background-color:rgba(206, 203, 203, 0.75);">
-						<div class="row">
+            </div>
+        
+            <div class="p3" id="3"  style="height:100vh;width:100%;">
 
-							<div class="col-4" style="height:35vh;border:1px solid red;margin-top:1.5vmin;">
-								<div class="row">
-									<div class="col-11" style="border:1px solid green;height:15vmin;"></div>
-								</div>
-								<div class="row">
+                <br/><br/><br/><br/>
 
-								</div>
-							</div>
-							
-							<div class="col-4" style="height:35vh;border:1px solid red;margin-top:1.5vmin;">
+                <div class="row container-fluid">
+                    
+                    <div class="col-4 offset-4">
+                        <center>
+                            <div style="font-size:3.5vh;font-family: 'Raleway', sans-serif;font-weight:bold;">Why we do it?</div><hr/>
+                            <div style="font-size:2.5vh;font-family: 'Raleway', sans-serif;color:rgb(177, 173, 173);font-weight:bold;padding-top:1vh;">because a bad customer experience costs more than a good customer experience</div>
+                        </center>
+                    </div>
 
-							</div>
-							
-							<div class="col-4" style="height:35vh;border:1px solid red;margin-top:1.5vmin;">
-							
-							</div>		
+                </div>
+                <br/>
+                <div class="row container-fluid">
+                    
+                    <div class="col-10 offset-1" style="position:relative;" >
 
-						</div>
-					</div>
-				</div>
-									
-			</div>
-			
+                        <div style="width:100%;">    
+                            <img class="wow fadeIn sts_txt hide" data-wow-duration="1s" data-wow-delay="1.5s" src="images/survey_text.png"/>
+                            <div class="canvas hide">
+                                    <canvas id="a" style="position:absolute;margin-top:59px;margin-left:59px;"></canvas>
+                                    <canvas id="b" style="position:absolute;margin-top:39px;margin-left:39px;"></canvas>
+                                    <canvas id="c" style="position:absolute;margin-top:19px;margin-left:19px;"></canvas>
+                                    <canvas id="d" style="position:absolute;"></canvas>
+                            </div> 
+                        </div>
 
 
-		</div>
-		
-		<script src="style/js/jquery.min.js"></script>
-		<script src="style/js/stats.js"></script>
-		<script src="style/full_page/jquery.fullPage.js"></script>
+                    </div>
+
+                </div>
+                
+        
+            </div>
+        
+            
+            <div class="p4" id="4" style="height:100vh;width:100%;background-color:rgb(243, 242, 242);">
+                <br/><br/><br/>
+
+                <div class="row container-fluid"  style="max-width:100%;" >
+                    
+                    <div class="col-4 offset-4">
+                        <center>
+                            <div style="font-size:4vh;font-weight:500;">Features</div>
+                            <hr/>
+                            <div style="font-size:2.2vh;font-family: 'Raleway', sans-serif;color:rgb(177, 173, 173);font-weight:bold;padding-top:1vh;">Carson offers a variety of features for the <strong style="color:#EF5D60">Guests</strong> as well as for the <strong style="color:#EF5D60">Hotel</strong></div>
+                        </center>
+                    </div>
+                </div>
+                <br/>
+                <div class="row container-fluid" >
+                    
+                    <div id="trigger" class="col-4 offset-4">
+                        <center>
+                                <a class="btn" id="gb" role="button" style="background-color:#EF5D60;color:white;width:20vh;">Guest</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <a class="btn" id="hb" role="button" style="background-color:rgb(168, 158, 159);color:white;width:20vh;">Hotel</a>
+                        </center>
+                    </div>
+                </div>
+
+                <br/>
+
+                <div class="row container-fluid" style="height:60vh;background-color:rgb(243, 242, 242);">
+                    
+                    <div id="guest_features" class="col-12 hide" style="white-space: nowrap; overflow:scroll; background-color:rgb(243, 242, 242);margin-left:5vh;position:relative;">
+                        
+                        <img id="feature_scroll" src="images/right.png" style="height:6vh;position:absolute;margin-left:90vw;margin-top:25vh;z-index:5;" />
+
+                        <div class="g_f" style="position:relative;">
+                            <div class="fi" ><center><img src="images/roomservice.svg" style="height:15vh;margin-top:7vh;"/></center></div>
+                            <div class="fh" ><center>Room Service</center></div>
+                            <div class="fd" ><center>Send service requests to the hotel through the app</center></div>
+                        </div>
+
+                        <div class="g_f" style="position:relative;">
+                            <div class="fi" ><center><img src="images/amenities.svg" style="height:15vh;margin-top:7vh;"/></center></div>
+                            <div class="fh" ><center>Order amenities</center></div>
+                            <div class="fd" ><center>Order soap, shampoo, etc from housekeeping </center></div>
+                        </div>
+
+                        <div class="g_f" style="position:relative;">
+                            <div class="fi" ><center><img src="images/food.svg" style="height:15vh;margin-top:7vh;"/></center></div>
+                            <div class="fh" ><center>Order Food</center></div>
+                            <div class="fd" ><center>Browse the different cuisines and order delicious food </center></div>
+                        </div>
+                        
+                        <div class="g_f" style="position:relative;">
+                            <div class="fi" ><center><img src="images/services.svg" style="height:13vh;margin-top:9vh;"/></center></div>
+                            <div class="fh" ><center>Hotel Facilities</center></div>
+                            <div class="fd" ><center>Browse and book different facilities provided by hotel </center></div>
+                        </div>
+
+
+                        <div class="g_f" style="position:relative;">
+                            <div class="fi" ><center><img src="images/tv.svg" style="height:15vh;margin-top:7vh;"/></center></div>
+                            <div class="fh" ><center>TV Catalouge</center></div>
+                            <div class="fd" ><center>Browse the T.V. catalouge and find your favourite channels </center></div>
+                        </div>
+                        
+
+                        <div class="g_f" style="position:relative;">
+                            <div class="fi" ><center><img src="images/taxi.svg" style="height:8.5vh;margin-top:12.5vh;"/></center></div>
+                            <div class="fh" ><center>Travel Desk</center></div>
+                            <div class="fd" ><center>Book hotel transport and visit hand picked local attractions</center></div>
+                        </div>
+                        
+                            
+                        
+                    </div>
+
+
+                    <div id="hotel_features" class="col-12" style="white-space: nowrap; overflow:scroll; background-color:rgb(243, 242, 242);display:none;">
+                        
+                        <div class="g_f" style="position:relative;">
+                            <div class="fi" ><center><img src="images/room service.svg" style="height:15vh;margin-top:7vh;"/></center></div>
+                            <div class="fh" ><center>Feature i</center></div>
+                            <div class="fd" ><center>feature details in a more elaborated form so that there is some text </center></div>
+                        </div>
+
+                        <div class="g_f" style="position:relative;">
+                            <div class="fi" ><center><img src="images/pink pizzaa.svg" style="height:15vh;margin-top:7vh;"/></center></div>
+                            <div class="fh" ><center>Feature i</center></div>
+                            <div class="fd" ><center>feature details in a more elaborated form so that there is some text </center></div>
+                        </div>
+
+                        <div class="g_f" style="position:relative;">
+                            <div class="fi" ><center><img src="images/tv_1.svg" style="height:15vh;margin-top:7vh;"/></center></div>
+                            <div class="fh" ><center>Feature i</center></div>
+                            <div class="fd" ><center>feature details in a more elaborated form so that there is some text </center></div>
+                        </div>
+                        
+                        <div class="g_f" style="position:relative;">
+                            <div class="fi" ><center><img src="images/pink dumbell.svg" style="height:15vh;margin-top:7vh;"/></center></div>
+                            <div class="fh" ><center>Feature i</center></div>
+                            <div class="fd" ><center>feature details in a more elaborated form so that there is some text </center></div>
+                        </div>
+
+
+                        <div class="g_f" style="position:relative;">
+                            <div class="fi" ><center><img src="images/Pink amenities.svg" style="height:10vh;margin-top:7vh;"/></center></div>
+                            <div class="fh" ><center>Feature i</center></div>
+                            <div class="fd" ><center>feature details in a more elaborated form so that there is some text </center></div>
+                        </div>
+                        
+
+                        <div class="g_f" style="position:relative;">
+                            <div class="fi" ><center><img src="images/pink pizzaa.svg" style="height:15vh;margin-top:7vh;"/></center></div>
+                            <div class="fh" ><center>Feature i</center></div>
+                            <div class="fd" ><center>feature details in a more elaborated form so that there is some text </center></div>
+                        </div>
+                        
+                            
+                        
+                    </div>
+
+                </div>
+                
+            </div>
+            
+        
+            <div class="p5" id="5" style="height:100vh;width:100%;">
+                <br/><br/><br/><br/><br/><br/>
+                <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                        
+            </div>
+
+
+        <script src="style/js/jquery.min.js"></script>
+        <script src="style/js/navbar.js"></script>
+        <script src="style/js/survey.js"></script>
 		<script src="style/js/bootstrap.min.js"></script>
-		<script src="style/js/wow.min.js"></script>
+        <script src="style/js/wow.min.js"></script>
+        
 		<script>
 		new WOW().init();
+        
+        $('#feature_scroll').click(function(){
+            
+            $('#guest_features').scrollLeft(550);
+            $('#feature_scroll').css('display','none');
+
+        });
+
+        $("#hb").click(function(){
+
+            $("#hb").css('background-color','#EF5D60');
+            $("#gb").css('background-color','rgb(168, 158, 159)');
+            
+            $("#hotel_features").css('display','initial');
+            $("#guest_features").css('display','none');
+        });
+
+        $("#gb").click(function(){
+           
+            $("#gb").css('background-color','#EF5D60');
+            $("#hb").css('background-color','rgb(168, 158, 159)');
+
+            $("#hotel_features").css('display','none');
+            $("#guest_features").css('display','initial');
+
+        });
+        
 		</script>
-		<script>
-			//alert($(window).width() );
-			$(document).ready(function() {
-				
-					$('#wrapper').fullpage({
-					verticalCentered: false,
-					scrollBar:true,
-					touchSensitivity: 1
-					//horizontalCentered: false
-				});
-				
-			});
+    </body>
 
-			
-			var x= $("#1").offset().top;
-
-			if ($(window).width() < 768) {
-
-				$('p1').removeClass('section');
-				$('p2').removeClass('section');
-				$('p3').removeClass('section');
-				$('p4').removeClass('section');
-				$('p5').removeClass('section');
-				
-			}
-
-			
-			var targetOffset1 = $("#1").offset().top;
-			var targetOffset2 = $("#2").offset().top;
-			var targetOffset3 = $("#3").offset().top;
-			var targetOffset4 = $("#4").offset().top;
-			var targetOffset5 = $("#5").offset().top;
-
-			//console.log(targetOffset1);
-		//	console.log(targetOffset2);
-		//	console.log(targetOffset3);
-		//	console.log(targetOffset4);
-
-			$('#home').addClass('highlight');
-			
-
-			$(document).scroll(function() {
-
-				//console.log($(this).scrollTop());
-				//console.log('\n');
-
-				//$('.p1').css("opacity","$(this).scrollTop()-726");
-				if( $(this).scrollTop() > 200 )
-				{
-					$('#home').css('color','#EF5D60');
-					$('#about').css('color','#EF5D60');
-					$('#services').css('color','#EF5D60');
-					$('#contact').css('color','#EF5D60');
-					$('#logo_text').css('color','#EF5D60');
-					$('#lg').css('height','6vh');
-					//$('nav').css('box-shadow','0px -30px 80px 1px');
-
-					$('#home').css('transition','color 1s');
-					$('#about').css('transition','color 1s');
-					$('#services').css('transition','color 1s');
-					$('#contact').css('transition','color 1s');
-					$('#logo_text').css('transition', 'color 0.5s');
-					$('#lg').css('transition','height 0.5s');
-
-				}
-				else
-				{
-
-					$('#home').css('color','white');
-					$('#about').css('color','white');
-					$('#services').css('color','white');
-					$('#contact').css('color','white');
-					$('nav').css('box-shadow','0px 0px 0px 0px');
-					$('#logo_text').css('color','white');
-					$('#lg').css('height','8vh');
-
-					$('#home').css('transition','color 0.5s');
-					$('#about').css('transition','color 0.5s');
-					$('#services').css('transition','color 0.5s');
-					$('#contact').css('transition','color 0.5s');
-					$('#logo_text').css('transition', 'color 0.5s');
-					$('#lg').css('transition','height 0.5s');
-				}
-				if( $(this).scrollTop() <= targetOffset1 )
-				{
-
-					//alert('home');
-					$('#about').removeClass('highlight');
-					$('#contact').removeClass('highlight');
-					$('#services').removeClass('highlight');
-
-					$('#home').addClass('highlight');
-
-					//console.log("t1 : "+targetOffset1);
-					//console.log("t2 : "+targetOffset2);
-					//console.log("t3 : "+targetOffset3);
-					//console.log("t4 : "+targetOffset4);
-				}
-				else if( $(this).scrollTop() > targetOffset1  && $(this).scrollTop() <= targetOffset2) {
-					
-					//alert('about');
-					$('#home').removeClass('highlight');
-					$('#contact').removeClass('highlight');
-					$('#services').removeClass('highlight');
-					
-					$('#about').addClass('highlight');
-
-					
-				} 
-				else if( $(this).scrollTop() > targetOffset2  && $(this).scrollTop() <= targetOffset3 )
-				{
-
-					//alert('about');
-					$('#home').removeClass('highlight');
-					$('#contact').removeClass('highlight');
-					$('#services').removeClass('highlight');
-					
-					$('#about').addClass('highlight');
-
-				}
-				else if( $(this).scrollTop() > targetOffset3  && $(this).scrollTop() <= targetOffset4 )
-				{
-					//alert('services');
-					$('#home').removeClass('highlight');
-					$('#contact').removeClass('highlight');
-					$('#about').removeClass('highlight');
-					
-					$('#services').addClass('highlight');
-
-					
-				}
-				else
-				{
-					//alert('contact');
-					$('#home').removeClass('highlight');
-					$('#services').removeClass('highlight');
-					$('#about').removeClass('highlight');
-
-					$('#contact').addClass('highlight');
-
-				}
-			});
-		</script>
-		
-		
-	</body>
-
-
-</html> 
-
-
-
-
-
-
-
-
-
-
+</html>
