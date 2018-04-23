@@ -59,7 +59,7 @@ function progressSim(){
 }
 var sim;
 $(document).scroll(function() {
-	console.log($(this).scrollTop());
+	//console.log($(this).scrollTop());
 	
     if( $(this).scrollTop() > ht-off )
     {

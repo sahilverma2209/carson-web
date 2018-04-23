@@ -3,8 +3,8 @@ var x;var y;
 
 var ht = $('.p3').offset().top ;
 var ht2 = $('.p4').offset().top ;
-console.log('ht'+ht);
-console.log('ht2'+ht2);
+//console.log('ht'+ht);
+//console.log('ht2'+ht2);
 
 var flag1=0;
 var flag2=0;
