@@ -1,65 +1,65 @@
-var x;var y;
+var _x;var _y;
 
 
-var ht = $('.p3').offset().top ;
-var ht2 = $('.p4').offset().top ;
-//console.log('ht'+ht);
-//console.log('ht2'+ht2);
+var _ht = $('.p3').offset().top ;
+var _ht2 = $('.p4').offset().top ;
+console.log('ht'+_ht);
+console.log('ht2'+_ht2);
 
-var flag1=0;
-var flag2=0;
-var flag3=0;
+var _flag1=0;
+var _flag2=0;
+var _flag3=0;
 
-var ctx2 = document.getElementById('a');
-ctx2.width = 220;
-ctx2.height = 220;
-ctx2.style.width = "110px";
-ctx2.style.height = "110px";
+var _ctx2 = document.getElementById('e');
+_ctx2.width = 220;
+_ctx2.height = 220;
+_ctx2.style.width = "110px";
+_ctx2.style.height = "110px";
 if ($(window).width() > 768) {
-	ctx2.getContext('2d').scale(3,3);
+	_ctx2.getContext('2d').scale(0,0);
 }
 else{
-	ctx2.getContext('2d').scale(2.3,2.3);
+	_ctx2.getContext('2d').scale(2.3,2.3);
 }
 
 
 
-var ctx = document.getElementById('a').getContext('2d');
-var al = 0;
-var start = 4.72;
-var cw = ctx.canvas.width;
-var ch = ctx.canvas.height; 
-var diff;
-function progressSim(){
+var _ctx = document.getElementById('e').getContext('2d');
+var _al = 0;
+var _start = 4.72;
+var _cw = _ctx.canvas.width;
+var _ch = _ctx.canvas.height; 
+var _diff;
+function _progressSim(){
 	
-	diff = ((al / 100) * Math.PI*2*10).toFixed(2);
-	ctx.clearRect(0, 0, cw, ch);
-	ctx.lineWidth = 7;
-	ctx.fillStyle = '#ee2b72';
-	ctx.strokeStyle = "#ee2b72";
-	ctx.textAlign = 'center';
-	ctx.fillText(al+'%', 38, 38);
-	ctx.beginPath();
-	ctx.arc(35, 35, 30, start, diff/10+start, false);
-	ctx.stroke();
+	_diff = ((_al / 100) * Math.PI*2*10).toFixed(2);
+	_ctx.clearRect(0, 0, _cw, _ch);
+	_ctx.lineWidth = 7;
+	_ctx.fillStyle = '#ee2b72';
+	_ctx.strokeStyle = "#ee2b72";
+	_ctx.textAlign = 'center';
+	_ctx.fillText(_al+'%', 38, 38);
+	_ctx.beginPath();
+	_ctx.arc(35, 35, 30, _start, _diff/10+_start, false);
+	_ctx.stroke();
 
-	if(al >= 75){
-		flag1++;
-		clearTimeout(sim);
+	if(_al >= 75){
+		_flag1++;
+		clearTimeout(_sim);
 	}
 	else{
-	al++;}
+	_al++;}
 }
-var sim;
+var _sim;
 
 $(document).scroll(function() {
-	console.log($(this).scrollTop());
+	//console.log($(this).scrollTop());
 	
-    if( $(this).scrollTop() > ht-5 )
+    if( $(this).scrollTop() > _ht-105 )
     {
-		if(flag1==0 && al<=80)
+		if(_flag1==0 && _al<=80)
 		{
-			sim = setInterval(progressSim, 40);
+			_sim = setInterval(_progressSim, 40);
 		}
 	}
 });
@@ -68,103 +68,103 @@ $(document).scroll(function() {
 // Second STAT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-var ctx4 = document.getElementById('b');
-ctx4.width = 220;
-ctx4.height = 220;
-ctx4.style.width = "110px";
-ctx4.style.height = "110px";
+var _ctx4 = document.getElementById('f');
+_ctx4.width = 220;
+_ctx4.height = 220;
+_ctx4.style.width = "110px";
+_ctx4.style.height = "110px";
 
 if ($(window).width() > 768) {
-	ctx4.getContext('2d').scale(3,3);
+	_ctx4.getContext('2d').scale(0,0);
 }
 else{
-	ctx4.getContext('2d').scale(2.3,2.3);
+	_ctx4.getContext('2d').scale(2.3,2.3);
 }
 
 
-var ctx_4 = document.getElementById('b').getContext('2d');
-var bl = 0;
-var start4 = 4.72;
-var cw4 = ctx_4.canvas.width;
-var ch4 = ctx_4.canvas.height; 
-var diff4;
-function progressSim4(){
+var _ctx_4 = document.getElementById('f').getContext('2d');
+var _bl = 0;
+var _start4 = 4.72;
+var _cw4 = _ctx_4.canvas.width;
+var _ch4 = _ctx_4.canvas.height; 
+var _diff4;
+function _progressSim4(){
 	
-	diff4 = ((bl / 100) * Math.PI*2*10).toFixed(2);
-	ctx_4.clearRect(0, 0, cw4, ch4);
-	ctx_4.lineWidth = 7;
-	ctx_4.fillStyle = '#ee2b72';
-	ctx_4.strokeStyle = "#ee2b72";
-	ctx_4.textAlign = 'center';
-	ctx_4.fillText(bl+'%', 38, 38);
-	ctx_4.beginPath();
-	ctx_4.arc(35, 35, 30, start4, diff4/10+start4, false);
-	ctx_4.stroke();
-	if(bl >= 92){
-		flag3++;
-		clearTimeout(sim4);
+	_diff4 = ((_bl / 100) * Math.PI*2*10).toFixed(2);
+	_ctx_4.clearRect(0, 0, _cw4, _ch4);
+	_ctx_4.lineWidth = 7;
+	_ctx_4.fillStyle = '#ee2b72';
+	_ctx_4.strokeStyle = "#ee2b72";
+	_ctx_4.textAlign = 'center';
+	_ctx_4.fillText(_bl+'%', 38, 38);
+	_ctx_4.beginPath();
+	_ctx_4.arc(35, 35, 30, _start4, _diff4/10+_start4, false);
+	_ctx_4.stroke();
+	if(_bl >= 92){
+		_flag3++;
+		clearTimeout(_sim4);
 	}else{
-	bl++;}
+	_bl++;}
 }
-var sim4;
+var _sim4;
 $(document).scroll(function() {
 	
-    if( $(this).scrollTop() > ht-5 )
+    if( $(this).scrollTop() > _ht-105 )
     {
-		if(flag3==0)
+		if(_flag3==0)
 		{
-			sim4 = setInterval(progressSim4, 40);
+			_sim4 = setInterval(_progressSim4, 40);
 		}
 	}
 });
 
 
 // THIRD STAT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-var ctx3 = document.getElementById('c');
-ctx3.width = 220;
-ctx3.height = 220;
-ctx3.style.width = "110px";
-ctx3.style.height = "110px";
+var _ctx3 = document.getElementById('g');
+_ctx3.width = 220;
+_ctx3.height = 220;
+_ctx3.style.width = "110px";
+_ctx3.style.height = "110px";
 if ($(window).width() > 768) {
-	ctx3.getContext('2d').scale(3,3);
+	_ctx3.getContext('2d').scale(0,0);
 }
 else{
-	ctx3.getContext('2d').scale(2.3,2.3);
+	_ctx3.getContext('2d').scale(2.3,2.3);
 }
 
 
-var ctx_3 = document.getElementById('c').getContext('2d');
-var cl = 0;
-var start3 = 4.72;
-var cw3 = ctx_3.canvas.width;
-var ch3 = ctx_3.canvas.height; 
-var diff3;
-function progressSim3(){
+var _ctx_3 = document.getElementById('g').getContext('2d');
+var _cl = 0;
+var _start3 = 4.72;
+var _cw3 = _ctx_3.canvas.width;
+var _ch3 = _ctx_3.canvas.height; 
+var _diff3;
+function _progressSim3(){
 	
-	diff3 = ((cl / 100) * Math.PI*2*10).toFixed(2);
-	ctx_3.clearRect(0, 0, cw3, ch3);
-	ctx_3.lineWidth = 7;
-	ctx_3.fillStyle = '#ee2b72';
-	ctx_3.strokeStyle = "#ee2b72";
-	ctx_3.textAlign = 'center';
-	ctx_3.fillText(cl+'%', 38, 38);
-	ctx_3.beginPath();
-	ctx_3.arc(35, 35, 30, start3, diff3/10+start3, false);
-	ctx_3.stroke();
-	if(cl >= 80){
-		flag2++;
-		clearTimeout(sim3);
+	_diff3 = ((_cl / 100) * Math.PI*2*10).toFixed(2);
+	_ctx_3.clearRect(0, 0, _cw3, _ch3);
+	_ctx_3.lineWidth = 7;
+	_ctx_3.fillStyle = '#ee2b72';
+	_ctx_3.strokeStyle = "#ee2b72";
+	_ctx_3.textAlign = 'center';
+	_ctx_3.fillText(_cl+'%', 38, 38);
+	_ctx_3.beginPath();
+	_ctx_3.arc(35, 35, 30, _start3, _diff3/10+_start3, false);
+	_ctx_3.stroke();
+	if(_cl >= 80){
+		_flag2++;
+		clearTimeout(_sim3);
 	}else{
-	cl++;}
+	_cl++;}
 }
-var sim3;
+var _sim3;
 $(document).scroll(function() {
 	
-    if( $(this).scrollTop() > ht-5 )
+    if( $(this).scrollTop() > _ht-105 )
     {
-		if(flag2==0)
+		if(_flag2==0)
 		{
-			sim3 = setInterval(progressSim3, 40);
+			_sim3 = setInterval(_progressSim3, 40);
 		}
 	}
 });
